@@ -15,8 +15,6 @@ import json
 import re
 import torch
 from datasets import load_dataset
-#from transformers import AutoTokenizer, AutoModelForCausalLM
-# Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
