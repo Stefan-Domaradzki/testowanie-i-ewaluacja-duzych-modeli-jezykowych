@@ -21,12 +21,6 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("amazon/MistralLite")
 model = AutoModelForCausalLM.from_pretrained("amazon/MistralLite").to("cuda")
 
-import json
-import re
-import torch
-from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM
-
 ######################################################
 # Pomocnicze funkcje do różnych zadań
 ######################################################
