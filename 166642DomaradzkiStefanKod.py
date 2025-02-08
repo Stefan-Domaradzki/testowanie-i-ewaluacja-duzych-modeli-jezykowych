@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1sT0baao84ohCjpFcRTBCbAptWTTuKpOU
 """
 
-!pip install transformers
+#!pip install transformers
 
-!pip install datasets
+#!pip install datasets
 
 import json
 import re
